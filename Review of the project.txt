@@ -1,0 +1,49 @@
+First of all, I want to thank you for the chance you gave me, really appreciate that.
+It gave me the opportunity to work with a new technology and learn a lot of cool stuff
+that I believe that  will certainly help me in the future.
+
+I was surprised at first how much object oriented is MVC, and it was not about just C#,
+but there was more waiting to be understood and put into practice.
+The first challanging moment was to understand the concept of this technolgy, what does
+it mean, how does it work?
+
+Then having in mind this general idea, I began going deeper , understanding the relationships
+between M,V and C (Model View Controll).
+And so, driven from my inexprerience and passion to learn I began testing different scenarious,
+which I saw in the books and how this small examples would complete my idea.
+I separeted the task into different small tasks such as:
+
+
+ - how to show my custom window on the screen
+ - how to link two pages
+ 
+
+With that, the question was pretty much closed.
+But then I saw that the frontpage is  still the default  page , so I had to figure out
+a way to change it .
+Then the notion routing came into help( After hours of thinking that there is
+something fundamental about the structure of MVC that I am miissing)
+
+With that problem solved I decided that the task is done, but the I noticed, that I am unable to return to
+the previous page so: How can be done?
+My attempts with [HttpGet] and [HttpPost] failed to produce the desired result.
+It turned out that the answer of this question was to use JavaScript and an attribute pointing to the function
+in the script - so this time it produced the desired result.
+
+That was the challanging moments through which I had to go through in order to complete the task.
+I took ma about a day and a half of researching on the Internet, reading books and articles where I found a lot more,
+and implementing all of this into final product.
+
+It was very challanging to fight with something new, but based on my prevous experience I was able to make
+a relationship between the things I knew, and those which I saw for the first time.
+I've tried to figure out some common ideas, about the structure as a whole.
+
+As a conclusion I can say that this project show me new horizions , helped me to become better and
+gave me the opportunity to learn something new and valuable.
+Than you for your time and attention!
+
+
+Radoslav Galabov  
+Sofiq 18.05.2013 year
+compiled in Visual Studio 2012
+

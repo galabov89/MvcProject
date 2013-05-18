@@ -1,0 +1,220 @@
+﻿
+body 
+{
+	margin: 0;
+	padding: 0;
+	background: #31569D;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+}
+
+h1, h2
+{
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Verdana', cursive;
+	font-weight: 400;
+}
+
+h1 
+{
+	font-size: 2em;
+}
+
+h2 
+{
+	font-size: 2.4em;
+}
+
+
+p, ul, ol 
+{
+	margin-top: 0;
+	line-height: 180%;
+}
+
+
+
+a {
+	text-decoration: none;
+	color: #0082B4;
+}
+
+
+
+img.border 
+{
+	border: 6px solid #E1F1F6;
+}
+
+img.alignleft 
+{
+	float: left;
+	margin-right: 25px;
+}
+
+img.alignright 
+{
+	float: right;
+}
+
+img.aligncenter 
+{
+	margin: 0px auto;
+}
+
+#wrapper 
+{
+	overflow: hidden;
+	margin: 0px auto;
+	background: url(/Images/animated-blue-sky.jpg) no-repeat center bottom;
+}
+
+/* Header */
+
+#header 
+{
+	overflow: hidden;
+	width: 900px;
+	height: 100px;
+	margin: 0 auto;
+}
+
+/* Logo */
+
+#logo 
+{
+	float: left;
+	height: 60px;
+	margin: 0;
+	padding: 0px 0px 0px 0px;
+	color: #FFFFFF;
+}
+
+#logo h1, #logo p 
+{
+	margin: 0;
+	padding: 0;
+}
+
+#logo h1 
+{
+	float: left;
+	padding-left: 30px;
+	letter-spacing: -3px;
+	font-family: 'Verdana';
+	font-size: 64px;
+}
+
+#logo span 
+{
+	letter-spacing: normal;
+	font-size: 22px;
+}
+
+#logo a 
+{
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+/* Page */
+
+#page 
+{
+	overflow: hidden;
+	width: 820px;
+	margin: 0px auto;
+	padding: 50px 40px;
+	background: url(/Images/page-content-bg.png) repeat; 
+	border-radius: 20px;
+}
+
+/* Content */
+
+#content
+ {
+	float: left;
+	width: 520px;
+	padding: 0px 20px;
+}
+
+.post 
+{
+	margin-bottom: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #0E2754;
+}
+
+
+
+.post .meta 
+{
+	padding-bottom: 5px;
+	text-align: left;
+	
+	font-size: 11px;
+	font-style: italic;
+}
+
+
+
+
+.links 
+{
+	display: block;
+	width: 96px;
+	padding: 2px 0px 2px 0px;
+	background: #A53602;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 10px;
+	color: #FFFFFF;
+}
+
+
+/* Footer */
+
+#footer
+ {
+	width: 900px;
+	height: 140px;
+	margin: 0px auto;
+	background: url(/Images/footer-shadow-bg.png) no-repeat left top;
+}
+
+#footer p 
+{
+	margin: 0;
+	padding-top: 30px;
+	line-height: normal;
+	text-transform: lowercase;
+	text-align: center;
+	font-size: 12px;
+	color: #0E2754;
+}
+
+.button-style 
+{
+	display: inline-block;
+	margin-top: 30px;
+	padding: 7px 30px;
+	background: rgb(255,0,0);
+	border:1px solid white;
+	border-color: rgb(255,255,255);
+    border-radius: 15px 15px 15px 15px;
+}
+
+.button-style a 
+{
+	letter-spacing: 1px;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 300;
+	font-size: 16px;
+	color: rgb(255,255,255);	
+}

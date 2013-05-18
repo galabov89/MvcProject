@@ -1,0 +1,79 @@
+﻿@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Weather around the world</title>
+<link href="@Url.Content("~/Content/default.css")" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="header">
+	<div id="logo">
+		<h1><a href="#">Humanity</a></h1>
+	</div>
+
+</div>
+<div id="banner-wrapper">
+	<div id="banner"></div>
+</div>
+<div id="page-wrapper">
+	<div id="page">
+		<div id="content">
+			<div>
+				<h2>This is Earth</h2>
+				<p class="subtitle">or what every human being would call his home!</p>
+				<p>
+					Global Warming
+					Throughout its long history, Earth has warmed and cooled time and again. Climate has changed when the planet received more or less sunlight due to subtle shifts in its orbit, as the atmosphere or surface changed, or when the Sun’s energy varied. But in the past century, another force has started to influence Earth’s climate: humanity
+				 </p>
+				<p class="button-style"><a href="#">@Html.ActionLink("More Details", "RsvpForm")</a></p>
+			</div>
+		</div>
+		<div id="sidebar">
+			<h2>Facts</h2>
+			<ul class="style1">
+				<li class="first">
+					<p><a href="#">There is more carbon dioxide in the atmosphere today than at any point in the last 800,000 years</a></p>
+				</li>
+				<li>
+					<p><a href="#">Global warming puts coral reefs in danger as warmer water increases the possibility of coral diseases and the rising sea levels makes it more difficult for coral to receive adequate sunlight.. </a></p>
+				</li>
+				<li>
+					<p><a href="#">Greenhouse gases keep heat close to the earth’s surface making it livable for humans and animals. However, global warming is happening largely to an over-emittance of these gases and fossil fuels (natural oil, gasoline, coal).</a></p>
+				</li>
+			</ul>
+		</div>
+	</div>
+</div>
+<div id="footer-wrapper">
+	<div id="footer-content">
+		<div id="fbox1">
+			<h2>Arctic</h2>
+			<p><img src="/Images/arctic.jpg" width="320" height="150" alt="" /></p>
+			<p>The Arctic is affected by current global warming, leading to Arctic sea ice shrinkage and Arctic methane release.</p>
+		
+		</div>
+		<div id="fbox2">
+			<h2>Deserts </h2>
+			<p><img src="/Images/global-warming.jpg" width="320" height="150" alt="" /></p>
+			<p>It's hard to imagine that global warming would have much effect on the world's already hot deserts. But even small changes in temperature or precipitation could drastically impact plants and animals living in the desert. In some cases global warming is predicted to increase the area of deserts, which already cover a quarter of Earth. </p>
+		
+		</div>
+		<div id="fbox3">
+			<h2>Pollution </h2>
+			<p><img src="/Images/smoke.jpg" width="320" height="150" alt="" /></p>
+			<p>Smog hanging over cities is the most familiar and obvious form of air pollution. But there are different kinds of pollution—some visible, some invisible—that contribute to global warming. Generally any substance that people introduce into the atmosphere that has damaging effects on living things and the environment is considered air pollution.</p>
+			
+		</div>
+	</div>
+</div>
+<div id="footer">
+	<p></p>
+</div>
+</body>
+</html>
